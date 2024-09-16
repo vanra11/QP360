@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3362fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-decoration: none;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  text-decoration: none;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5%;
+  transition: all 0.3s ease-in-out;
+}
+
+.ala {
+  background-color: black;
+}
+
+.ala:hover {
+  background-color: black;
+  box-shadow: 0 0 10px black;
+  transform: translateY(-5px);
+}
+
+.prob {
+  background-color: black;
+}
+
+.prob:hover {
+  background-color: black;
+  box-shadow: 0 0 10px black;
+  transform: translateY(-5px);
+}
+
+.dd {
+  background-color: black;
+}
+
+.dd:hover {
+  background-color: black;
+  box-shadow: 0 0 10px black;
+  transform: translateY(-5px);
+}
+.id {
+  background-color: black;
+}
+
+.id:hover {
+  background-color: black;
+  box-shadow: 0 0 10px black;
+  transform: translateY(-5px);
+}
+.id:visited {
+  text-decoration: none;
+  color: black;
+}
+.welcome {
+  text-align: center;
+}
+.homepage {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+.homepage-button {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.homepage-button:visited {
+  color: white;
+}

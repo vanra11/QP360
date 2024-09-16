@@ -1,0 +1,228 @@
+.logo {
+  padding: 1%;
+  margin-top: 20px;
+  text-align: center;
+}
+.login-options {
+  padding: 5%;
+  margin-top: 0px;
+  text-align: center;
+}
+.login,
+.signup {
+  width: 30%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(23, 93, 184);
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+.login-options {
+  padding: 5%;
+  margin-top: 0px;
+  text-align: center;
+}
+h3 {
+  font-size: 15px;
+  text-decoration: solid;
+  text-align: left;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.welcome {
+  text-align: center;
+  color: black;
+}
+#Copyright {
+  font-size: 16px;
+  color: rgb(23, 93, 184);
+  text-align: center;
+}
+aside {
+  background-color: black;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+h3 {
+  text-align: center;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #294f7e;
+}
+a {
+  text-align: center;
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(115, 248, 230);
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 30px;
+  color: black;
+}
+
+.category h2 {
+  margin-bottom: 30px;
+}
+
+.category-list {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center align the boxes */
+}
+
+.category-box {
+  background-color: navy;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 30px; /* Add margin between boxes */
+  transition: all 0.3s ease-in-out;
+}
+
+.category-box:hover {
+  background-color: black;
+  transform: translateY(-5px); /* Change background color on hover */
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.header-buttons {
+  position: absolute;
+  top: calc(100% + 10px); /* 10px below the header */
+  right: 20px; /* Right-aligned */
+}
+
+.header-buttons button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  background-color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category h2 {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: navy;
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+  padding-bottom: 30px;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("back1.jpg") no-repeat center center/cover;
+}
+
+.logo {
+  mix-blend-mode: multiply;
+}

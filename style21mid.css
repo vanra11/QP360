@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3362fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 5%;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.ele {
+  background-color: black;
+}
+
+.ele:hover {
+  background-color: black;
+  box-shadow: 0 0 20px black;
+  transform: translateY(-5px);
+}
+
+/* Apply the style for visited links directly to the <a> element */
+.box a:visited {
+  text-decoration: none;
+  color: white; /* Change this to the desired color */
+}
+
+.welcome {
+  text-align: center;
+}
+
+.homepage {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
